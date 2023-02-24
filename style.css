@@ -1,0 +1,107 @@
+/* Initialisation de la page  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background-color: rgb(22, 25, 27);
+    font-size: 18px;
+    color: rgb(212, 212, 212);
+}
+section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+/* Design du container  */
+.container {
+    padding: 30px;
+    background-color: #303538;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px #00000011;
+    width: 90%;
+    max-width: 400px;
+}
+/* Design du formulaire  */
+form {
+    font-size: 20px;
+    width: 100%;
+}
+.resultat {
+    background-color: rgb(220, 233, 233);
+    position: relative;
+    overflow: hidden;
+    border-radius: 6px;
+    margin-bottom: 30px;
+}
+.resultat input {
+    height: 100%;
+    width: 85%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 20px;
+}
+.resultat .click {
+    width: 15%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    background-color: royalblue;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.champ input[type="number"] {
+    width: 50px;
+    height: 40px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    padding-right: 0px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: rgb(241, 241, 241);
+}
+.champ {
+    height: 40px;
+    margin-top: 5px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.champ:hover {
+    background-color: rgb(26, 29, 31);
+}
+.champ label {
+    cursor: pointer;
+    padding: 10px;
+    width: 100%;
+}
+.champ input {
+    cursor: pointer;
+}
+button[type="submit"] {
+    display: inline-block;
+    background-color: royalblue;
+    width: 100%;
+    border: none;
+    outline: none;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 30px;
+}
